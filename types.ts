@@ -156,7 +156,7 @@ function isSubscriber(obj: CosmicObject): obj is Subscriber {
 }
 
 // Utility types
-type OptionalMetadata<T> = Partial<T['metadata']>;
+type OptionalMetadata<T extends CosmicObject> = Partial<T['metadata']>;
 type CreateArticleData = Omit<Article, 'id' | 'created_at' | 'modified_at'>;
 type CreatePickData = Omit<Pick, 'id' | 'created_at' | 'modified_at'>;
 type CreateSubscriberData = Omit<Subscriber, 'id' | 'created_at' | 'modified_at'>;
