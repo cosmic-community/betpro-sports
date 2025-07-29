@@ -9,7 +9,7 @@ export default function HeroSection() {
             Expert Sports Betting
             <span className="block text-yellow-300">Analysis & Picks</span>
           </h1>
-          <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-purple-100 mb-8 max-w-3xl mx-auto">
             Get professional betting picks, in-depth analysis, and strategy guides from expert handicappers. 
             Turn your sports knowledge into winning bets.
           </p>
@@ -36,15 +36,15 @@ export default function HeroSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-yellow-300 mb-2">85%</div>
-              <div className="text-blue-100">Win Rate on Premium Picks</div>
+              <div className="text-purple-100">Win Rate on Premium Picks</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-yellow-300 mb-2">500+</div>
-              <div className="text-blue-100">Betting Articles & Guides</div>
+              <div className="text-purple-100">Betting Articles & Guides</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-yellow-300 mb-2">10K+</div>
-              <div className="text-blue-100">Active Subscribers</div>
+              <div className="text-purple-100">Active Subscribers</div>
             </div>
           </div>
         </div>
